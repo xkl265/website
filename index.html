@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>个人简历</title>
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <script src="bootstrap-3.3.7-dist/js/jquery.min.js"></script>
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <style type="text/css">
+        .div{position: absolute;
+            left: 50px;
+            top: 50px;}
+        .center1{
+            margin-top:100px;margin-bottom:0px;
+            display: -webkit-flex;
+            -webkit-justify-content: center;
+            -webkit-align-items: center;
+        }
+        .center {
+            margin-top:50px;margin-bottom:40px;
+               display: -webkit-flex;
+               -webkit-justify-content: center;
+               -webkit-align-items: center;
+              }
+        .shuru{
+            margin: 20px 50px 10px 20%;
+
+        }
+        .shuru2{
+            margin: 80px 50px 50px 20%;
+
+        }
+    </style>
+
+</head>
+<body  background="pic/背景.jpg">
+<div class="center1"  >
+<font size="10" color="white"></font>
+</div>
+<div class="col-xs-12 column">
+    <div class="row clearfix">
+        <div class="col-xs-2 column">
+
+        </div>
+        <div class="col-xs-8 column">
+            <div style="text-align:center;">
+
+                <input type="button" style="background-color:#878787;" class="btn slide-one" value="个人信息">
+                <input type="button" style="background-color:#878787;" class="btn slide-two" value="个人经历">
+                <input type="button" style="background-color:#878787;" class="btn slide-three" value="个人特长">
+            </div>
+            <script>
+                $(function(){
+
+                    // 循环轮播到某个特定的帧
+                    $(".slide-one").click(function(){
+                        $("#myCarousel").carousel(0);
+                    });
+                    $(".slide-two").click(function(){
+                        $("#myCarousel").carousel(1);
+                    });
+                    $(".slide-three").click(function(){
+                        $("#myCarousel").carousel(2);
+                    });
+                });
+            </script>
+            <div id="myCarousel" class="carousel slide">
+                <!-- 轮播（Carousel）指标 -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+                <!-- 轮播（Carousel）项目 -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <div class="col-xs-12 column">
+                        <div class="row clearfix">
+                            <div class="col-xs-6 column"style="background-color:#36648B;height: 470px">
+                                <div class="center"> <img src="pic/未知头像.jpg" width="60%" height="50%" /></div>
+                                <div class="shuru">
+                                    <font   color="white">姓&nbsp&nbsp&nbsp&nbsp名&nbsp&nbsp&nbsp：罗瑾昀<br/><br/>出生日期：1999年2月</font>
+                                </div>
+
+
+                            </div>
+                            <div class="col-xs-6 column"  style="background-color:#CFCFCF;height: 470px">
+                                <div class="shuru2">
+                                    <table border="0" width="100%" align="center" >
+                                        <tbody >
+                                        <tr height=70 >
+                                            <th width="90px">所在学校</th>
+                                            <td >长安大学</td>
+
+                                        </tr>
+                                        <tr  height=70 bgcolor="" >
+                                            <th>所在学院</th>
+                                            <td>信息工程学院</td>
+                                        </tr>
+                                        <tr align="left" bgcolor=""height=70 >
+                                            <th>班&nbsp&nbsp&nbsp&nbsp级</th>
+                                            <td>2017240207</td>
+                                        </tr>
+                                        <tr  bgcolor=""height=70 >
+                                            <th>学&nbsp&nbsp&nbsp&nbsp号</th>
+                                            <td>2017901009</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <br/><br/><br/>
+                            </div>
+                            <div class="col-xs-0 column"></div>
+                        </div>
+                    </div>
+                    </div>
+                    <div   class="item">
+                        <div class="col-xs-12 column">
+                            <div class="row clearfix">
+                                <div class="col-xs-6 column"style="background-color:#CFCFCF;height: 470px">
+                                   <div class="div">
+                                       <font size="5"><strong>教育背景</strong><br></font>
+                                       <font size="4">
+                                           2011.7-2014.6&nbsp广东实验中学<br>
+                                           2014.9-2015.7&nbsp广州市恒福中学<br>
+                                           2015.9-2017.6&nbsp广州市第二中学<br>
+                                           2017.8-&nbsp&nbsp 长安大学<br><br><br>
+                                       </font>
+                                       <font size="5"><strong>曾任职务</strong><br></font>
+                                       <font size="4">
+                                           2011-2014&nbsp政治科代<br>
+                                           2014-2015&nbsp物理科代<br>
+
+                                       </font>
+                                   </div>
+
+                                </div>
+                                <div class="col-xs-6 column"  style="background-color:#CFCFCF;height: 470px">
+                                    <div class="div">
+                                        <font size="5"><strong>获奖经历</strong><br></font>
+                                        <font size="4">
+                                            2012&nbsp第十八届全国青少年信息学奥赛广州市三等奖<br>
+                                            2013-2017&nbsp三好学生<br>
+                                            <br><br><br>
+                                        </font>
+                                        <font size="5"><strong>现任职</strong><br></font>
+                                        <font size="4">
+                                            长安大学青年传媒中心技术部干事<br>
+
+                                        </font>
+                                    </div>
+                                </div>
+                                <div class="col-xs-0 column"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="col-xs-12 column">
+                            <div class="row clearfix">
+                                <div class="col-xs-6 column"style="background-color:#CFCFCF;height: 470px">
+                                    <div class="div">
+                                        <font size="5"><strong>兴趣爱好</strong><br></font>
+                                        <font size="4">科技类事物、吉他、篮球<br><br><br><br><br>
+
+                                        </font>
+                                        <font size="5"><strong>技能</strong><br></font>
+                                        <font size="4">C++、pascal编程，html使用<br>
+                                            office系列办公软件使用<br>
+                                            ps、pr简单操作
+
+                                        </font>
+
+                                    </div>
+
+                                </div>
+                                <div class="col-xs-6 column"  style="background-color:#CFCFCF;height: 470px">
+
+                                </div>
+                                <div class="col-xs-0 column"></div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <!-- 轮播（Carousel）导航 -->
+                <a class="carousel-control left" href="#myCarousel"
+                   data-slide="prev">&lsaquo;</a>
+                <a class="carousel-control right" href="#myCarousel"
+                   data-slide="next">&rsaquo;</a>
+
+            </div>
+        </div>
+        <div class="col-xs-2 column"></div>
+    </div>
+</div>
+
+
+</body>
+</html>
